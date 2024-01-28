@@ -16,4 +16,3 @@ def test_order_creation():
 
 # 4. Проверить, что код ответа равен 200.
     assert response_order.status_code == 200
-    data_order = response_order.json()
